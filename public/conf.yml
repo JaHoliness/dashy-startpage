@@ -82,3 +82,39 @@ sections:
         target: sametab
         color: '#e8892d'
         id: 2_840_hotukdeals
+  - name: Gaming
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: PSNProfiles
+        description: Automatically track your games and trophies from PSN.
+        icon: https://psnp-plus.netlify.app/img/trophy-icons/40/platinum.png
+        url: https://psnprofiles.com/
+        target: sametab
+        color: '#43608d'
+        id: 0_595_psnprofiles
+      - title: PSDeals
+        description: Newest PlayStation discounts and sales.
+        icon: https://i.imgur.com/7iGK5K4.png
+        url: https://psdeals.net/gb-store?additional_stores=0
+        target: sametab
+        color: '#3e6fc4'
+        id: 1_595_psdeals
+      - title: GameFAQs
+        description: Host of game FAQs, guides, and walkthroughs.
+        icon: https://i.imgur.com/UcArYO1.png
+        url: https://gamefaqs.gamespot.com/
+        target: sametab
+        color: '#4252bf'
+        id: 2_595_gamefaqs
+      - title: Neoseeker
+        description: PC and console game walkthroughs, guides, and FAQs.
+        icon: https://i.imgur.com/3qaNbcs.jpg
+        url: https://www.neoseeker.com/
+        target: sametab
+        color: '#83b2da'
+        id: 3_595_neoseeker
