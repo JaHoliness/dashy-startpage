@@ -1,47 +1,90 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Startpage
   description: Welcome to your startpage!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 appConfig:
   theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  layout: auto
+  iconSize: medium
+  language: en
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+  - name: Socials
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: YouTube
+        description: Enjoy the videos and music you love!
+        icon: https://i.imgur.com/nBtdrK1.png
+        url: https://www.youtube.com/
+        target: sametab
+        color: '#e24e1b'
+        id: 0_718_youtube
+      - title: reddit
+        description: The front page of the internet.
+        icon: https://i.imgur.com/K9rN58B.png
+        url: https://www.reddit.com/
+        target: sametab
+        color: '#e46521'
+        id: 1_718_reddit
+      - title: Twitter
+        description: >-
+          From breaking news and entertainment to sports and politics, get the
+          full story with all the live commentary.
+        icon: >-
+          https://seeklogo.com/images/T/twitter-2012-positive-logo-916EDF1309-seeklogo.com.png
+        url: https://twitter.com/home
+        target: sametab
+        color: '#5fa5dc'
+        id: 2_718_twitter
+      - title: Twitch
+        description: >-
+          Interactive livestreaming for content spanning gaming, entertainment,
+          sports, music, and more.
+        icon: https://i.imgur.com/j70JgMM.png
+        url: https://www.twitch.tv/
+        target: sametab
+        color: '#9f78f7'
+        id: 3_718_twitch
