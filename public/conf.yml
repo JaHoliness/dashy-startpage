@@ -82,6 +82,20 @@ sections:
         target: sametab
         color: '#e8892d'
         id: 2_840_hotukdeals
+      - title: Apple
+        description: Shop everything iPhone, iPad, MacBook and more.
+        icon: https://i.imgur.com/y2SDVp4.png
+        url: https://www.apple.com/uk/
+        target: sametab
+        color: '#ffffff'
+        id: 3_840_apple
+      - title: Quidco
+        description: 'The UK''s #1 cashback site.'
+        icon: https://i.imgur.com/ALane5v.jpg
+        url: https://www.quidco.com/home/
+        target: sametab
+        color: '#4578c8'
+        id: 4_840_quidco
   - name: Gaming
     displayData:
       sortBy: default
@@ -118,3 +132,63 @@ sections:
         target: sametab
         color: '#83b2da'
         id: 3_595_neoseeker
+  - name: Sports
+    icon: ''
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Navmix
+        description: Stream live football and other major events live.
+        icon: https://i.imgur.com/ZAkK93K.png
+        url: https://navmix.app/web/
+        target: sametab
+        color: '#494949'
+        id: 0_651_navmix
+      - title: NOW
+        description: Stream the latest movies, tv shows, and watch live sports.
+        icon: https://i.imgur.com/QBCx3be.png
+        url: https://www.nowtv.com/gb/watch/home
+        target: sametab
+        color: '#376a74'
+        id: 1_651_now
+      - title: BT Sport
+        description: The heart of sport.
+        icon: https://consent.trustarc.com/get?name=british_telecom_logo.png
+        url: https://www.bt.com/sport/watch
+        target: sametab
+        color: '#4d20ae'
+        id: 2_651_btsport
+      - title: LiveSoccerTV
+        description: Online streaming and TV listings.
+        icon: https://i.imgur.com/nBFY3CT.png
+        url: https://www.livesoccertv.com/
+        target: sametab
+        color: '#b53f1e'
+        id: 3_651_livesoccertv
+      - title: Flashscore
+        description: All the lastest football results from over 1000 leagues.
+        icon: https://i.imgur.com/EZyI2FK.png
+        url: https://www.flashscore.co.uk/
+        target: sametab
+        color: '#0a1d27'
+        id: 4_651_flashscore
+  - name: Finance
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Gaming Stores
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
