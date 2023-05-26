@@ -183,7 +183,30 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
+    items:
+      - title: HSBC
+        description: Banking done okay
+        icon: https://companieslogo.com/img/orig/HSBC-9c9da987.png?t=1647980897
+        url: https://www.hsbc.co.uk/security/
+        target: sametab
+        color: '#c2411e'
+        id: 0_692_hsbc
+      - title: Nationwide
+        description: On your side
+        icon: >-
+          https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1470739992/bvlz1kftxoy5cnlsqb6l.png
+        url: >-
+          https://onlinebanking.nationwide.co.uk/AccessManagement/IdentifyCustomer/IdentifyCustomer
+        target: sametab
+        color: '#142974'
+        id: 1_692_nationwide
+      - title: NatWest
+        description: Here to champion your potential
+        icon: https://logos-world.net/wp-content/uploads/2021/02/NatWest-Logo.png
+        url: https://www.onlinebanking.natwest.com/Default.aspx
+        target: sametab
+        color: '#3b1c5b'
+        id: 2_692_natwest
   - name: Gaming Stores
     displayData:
       sortBy: default
