@@ -132,6 +132,61 @@ sections:
         target: sametab
         color: '#83b2da'
         id: 3_595_neoseeker
+      - title: Game-Maps
+        description: Detailed video game maps and walkthroughs
+        icon: https://game-maps.com/y21/game-maps-logo-svg.svg
+        url: https://game-maps.com/
+        target: sametab
+        color: '#b55834'
+        id: 4_595_gamemaps
+      - title: PlatGet
+        description: PlayStation trophy guides
+        icon: >-
+          https://platget.com/wp-content/uploads/2022/12/PlatGet-Logo-White-2023.svg
+        url: https://platget.com/
+        target: sametab
+        color: '#de4c5c'
+        id: 5_595_platget
+      - title: TrueAchievements
+        description: Xbox achievement tracking
+        icon: >-
+          https://pbs.twimg.com/profile_images/498939494599368704/-j8C0bH9_400x400.png
+        url: https://www.trueachievements.com/
+        target: sametab
+        color: '#cef350'
+        id: 6_595_trueachievements
+      - title: Nexus Mods
+        description: Mods for PC games
+        icon: >-
+          https://steamuserimages-a.akamaihd.net/ugc/1023948871896066001/B27344B9214B29D2EC620037E975477A29ADFDA3/
+        url: https://www.nexusmods.com/
+        target: sametab
+        color: '#ca964e'
+        id: 7_595_nexusmods
+      - title: PCGamingWiki
+        description: Encyclopedia of PC game fixes
+        icon: >-
+          blob:chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/8ad3cc61-7d98-416c-bf6f-cc73e94d5d63
+        url: >-
+          https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYHDQrHCqcNCgNyDdKz7syeVuF3__9Bd_j3-HrkRz1XAjvKU1g
+        target: sametab
+        color: '#5c6cae'
+        id: 8_595_pcgamingwiki
+      - title: Before I Play
+        description: Tips and tricks for video games
+        icon: https://beforeiplay.com/images/beforeiplaylogo.png?32c96
+        url: https://beforeiplay.com/index.php?title=Main_Page
+        target: sametab
+        color: '#333333'
+        id: 9_595_beforeiplay
+      - title: Map Genie
+        description: Interactive game maps
+        icon: >-
+          data:image/png;base64,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
+        url: https://mapgenie.io/
+        target: sametab
+        color: '#d77566'
+        id: 10_595_mapgenie
   - name: Sports
     icon: ''
     displayData:
@@ -214,4 +269,72 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
+    items:
+      - title: PlayStation Store
+        description: Enjoy hundreds of PS5 and PS4 games
+        icon: >-
+          https://i.pinimg.com/originals/da/6e/60/da6e60ba1824916fbf81050cfb166a4e.png
+        url: https://store.playstation.com/en-gb/pages/latest
+        target: sametab
+        color: '#3b6fc8'
+        id: 0_1267_playstationstore
+      - title: Steam
+        description: The ultimate destination for playing, discussing, and creating games
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png
+        url: https://store.steampowered.com/
+        target: sametab
+        color: '#1f2737'
+        id: 1_1267_steam
+      - title: Epic Games Store
+        url: https://store.epicgames.com/en-US/
+        id: 2_1267_epicgamesstore
+      - title: ShopTo
+        url: https://www.shopto.net/
+        id: 3_1267_shopto
+      - title: Game
+        url: https://www.game.co.uk/
+        id: 4_1267_game
+      - title: CD Keys
+        url: https://www.cdkeys.com/
+        id: 5_1267_cdkeys
+      - title: AllKeyShop
+        url: https://www.allkeyshop.com/blog/en-gb/
+        id: 6_1267_allkeyshop
+  - name: Entertainment
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Netflix
+        url: https://www.netflix.com/browse
+        id: 0_1374_netflix
+      - title: Disney+
+        url: https://www.disneyplus.com/en-gb/home
+        id: 1_1374_disney
+      - title: Prime Video
+        url: https://www.amazon.co.uk/Amazon-Video/b?ie=UTF8&node=3010085031
+        id: 2_1374_primevideo
+      - title: BBC iPlayer
+        url: https://www.bbc.co.uk/iplayer
+        id: 3_1374_bbciplayer
+  - name: Miscellaneous
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Displate
+        url: https://displate.com/
+        id: 0_1364_displate
+      - title: Specsavers
+        url: https://easycare.specsavers.co.uk/easy-care/login
+        id: 1_1364_specsavers
+      - title: PayPal
+        url: https://www.paypal.com/myaccount/summary
+        id: 2_1364_paypal
